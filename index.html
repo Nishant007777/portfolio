@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <a href="#">Portfo<span>lio.</span></a>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="buttons">
+        <a href="login.html" class="login">Log in</a>
+        <a href="register.html" class="btn">Register</a>
+      </div>
+    </nav>
+    <div class="content">
+      <h2>Hello,<br>It's Me <span class="name">Nishant</span> </h2>
+      <span id="element"></span>
+      <p>I Will Make Your Project Beautiful And Attractive,</p>
+    </div>
+    <div class="link">
+      <a href="#" class="hire">Hire Me</a>
+    </div>
+  </div>
+  <!-- About section -->
+    <section id="about">
+        <h2 class="heading">About Me</h2>
+          <div class="img">
+              <img src="Ghost.png" alt="" height="300px" width="400px">
+              <p class="para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta, corrupti veniam, et placeat, excepturi debitis perferendis vero labore reprehenderit id quaerat. Minima magni culpa pariatur delectus praesentium ad, corporis nobis nostrum at illum quibusdam, cum architecto eaque nisi voluptates. Culpa rerum vero, officia, minus repellendus nihil, fuga illum veritatis animi aliquid cum perspiciatis optio voluptates tempora. Molestias, voluptates. A, ad. Aliquam facilis placeat nulla similique voluptas eos labore voluptatem necessitatibus eveniet esse natus consectetur rem, iusto fugit?
+                </p>
+            </div>
+    </section>
+
+<!-- Service -->
+<section id="service">
+    <h1 class="heading">Service</h1>
+    <div class="row">
+        <div class="box">
+            <img src="service.png" alt="">
+            <h1 class="heading">WEBSITE DESIGN</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aperiam cum eligendi nostrum veniam, dolorum rem commodi quo ad tempore laudantium veritatis nulla quae odit tempora nisi suscipit soluta magni accusamus repudiandae dolore ipsa tenetur omnis? Possimus repudiandae, !</p>
+        </div>
+
+        <div class="box">
+            <img src="ux ui.png" alt="">
+            <h1 class="heading">UX/UI <br> DESIGN</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aperiam cum eligendi nostrum veniam, dolorum rem commodi quo ad tempore laudantium veritatis nulla quae odit tempora nisi suscipit soluta magni accusamus repudiandae dolore ipsa tenetur omnis? Possimus repudiandae, !</p>
+        </div>
+        <div class="box">
+            <img src="digital marketing.png" alt="">
+            <h1 class="heading">DIGITAL MARKETING</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aperiam cum eligendi nostrum veniam, dolorum rem commodi quo ad tempore laudantium veritatis nulla quae odit tempora nisi suscipit soluta magni accusamus repudiandae dolore ipsa tenetur omnis? Possimus repudiandae, !</p>
+        </div>
+    </div>
+</section>
+
+    <!-- contact  -->
+    <section id="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="nepal">Nepal</option>
+              <option value="canda">Canada</option>
+              <option value="usa">USA</option>\
+              <option value="china">China</option>
+            </select>
+        
+            <label for="subject">Your Message</label>
+            <textarea id="subject" name="subject" placeholder="Enter your Message" style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+         </section>
+
+   
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>I am a Web Developer & Web Designer.</i>', '&amp; You Can Find Me On GitHub.'],
+      typeSpeed:95,
+    });
+  </script>
+
+</body>
+</html>
